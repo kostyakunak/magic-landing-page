@@ -1,0 +1,88 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4a1a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="crystalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Floating particles -->
+  <circle cx="120" cy="63" r="2" fill="#8B5CF6" opacity="0.4"/>
+  <circle cx="960" cy="126" r="2" fill="#8B5CF6" opacity="0.4"/>
+  <circle cx="240" cy="378" r="2" fill="#8B5CF6" opacity="0.4"/>
+  <circle cx="840" cy="504" r="2" fill="#8B5CF6" opacity="0.4"/>
+  <circle cx="600" cy="189" r="2" fill="#8B5CF6" opacity="0.4"/>
+  
+  <!-- Crystal Ball -->
+  <circle cx="600" cy="200" r="60" fill="url(#crystalGradient)" filter="url(#glow)"/>
+  
+  <!-- Eye in crystal ball -->
+  <ellipse cx="600" cy="200" rx="30" ry="20" fill="#ffffff" opacity="0.9"/>
+  <circle cx="600" cy="200" r="12" fill="#1f2937"/>
+  <circle cx="597" cy="195" r="4" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGradient)">
+    Откройте Врата Будущего
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">
+    Древние знания кристального шара теперь доступны вам
+  </text>
+  
+  <!-- Features -->
+  <g transform="translate(300, 400)">
+    <!-- Feature 1 -->
+    <g>
+      <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
+      <path d="M8 15c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7-7-3.13-7-7z" fill="#8B5CF6"/>
+      <circle cx="15" cy="15" r="3" fill="#ffffff"/>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Прозрение</text>
+    </g>
+    
+    <!-- Feature 2 -->
+    <g transform="translate(200, 0)">
+      <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="#8B5CF6"/>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Тайные знания</text>
+    </g>
+    
+    <!-- Feature 3 -->
+    <g transform="translate(400, 0)">
+      <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
+      <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" fill="#8B5CF6"/>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Трансформация</text>
+    </g>
+  </g>
+  
+  <!-- CTA Button -->
+  <rect x="450" y="480" width="300" height="60" rx="30" fill="url(#crystalGradient)"/>
+  <text x="600" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">
+    Записаться на Тренинг
+  </text>
+  
+  <!-- Brand -->
+  <text x="1050" y="600" text-anchor="end" font-family="Arial, sans-serif" font-size="16" fill="#9CA3AF">
+    © 2025 Академия Мистических Искусств
+  </text>
+</svg>
