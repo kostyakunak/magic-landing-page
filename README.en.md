@@ -24,7 +24,7 @@
 - 🎭 **Interactive Elements** with hover effects
 - 🌟 **Smooth Animations** of particles and transitions
 - 🎯 **SEO Optimized** with meta tags
-- 🚀 **Ready for Deploy** on Netlify/Vercel
+- 🚀 **Works on** Netlify/Vercel
 
 ## 🛠️ Tech Stack
 
