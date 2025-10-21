@@ -10,7 +10,7 @@
 
 ## 📸 Demo
 
-![Landing Page Preview](https://magic-landing-page.netlify.app/og-image.jpg)
+![Landing Page Preview](https://magic-landing-page.netlify.app/og-image.html)
 
 > **🎯 Demo**: [View Live Version](https://magic-landing-page.netlify.app)
 
