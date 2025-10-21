@@ -2,7 +2,7 @@
 
 > Современная анимированная лендинг-страница для тренинга по работе с кристальным шаром
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://magic-crystal-ball-landing.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://magic-landing-page.netlify.app)
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
@@ -10,7 +10,9 @@
 
 ## 📸 Демо
 
-![Landing Page Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Magic+Crystal+Ball+Landing+Page)
+![Landing Page Preview](https://magic-landing-page.netlify.app/og-image.jpg)
+
+> **🎯 Демо**: [Посмотреть живую версию](https://magic-landing-page.netlify.app)
 
 > **🎯 Главная особенность**: Плавные анимации, градиентные эффекты и интерактивные элементы создают атмосферу мистики и магии
 
