@@ -1,7 +1,8 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "magic-crystal-ball-landing",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Анимированная лендинг-страница для тренинга по работе с кристальным шаром с современным дизайном и плавными анимациями",
   "type": "module",
   "scripts": {
     "dev": "vite",
