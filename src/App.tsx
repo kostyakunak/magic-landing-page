@@ -40,30 +40,30 @@ function App() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 bg-clip-text text-transparent animate-gradient">
-            Откройте Врата Будущего
+            Unlock the Gates of the Future
           </h1>
 
           <p className="text-xl sm:text-2xl text-purple-200 mb-8 max-w-3xl mx-auto">
-            Древние знания кристального шара теперь доступны вам
+            Ancient crystal ball knowledge is now available to you
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center mb-12">
             <div className="flex items-center gap-2 text-purple-200">
               <Eye className="w-5 h-5" />
-              <span>Прозрение</span>
+              <span>Insight</span>
             </div>
             <div className="flex items-center gap-2 text-purple-200">
               <Moon className="w-5 h-5" />
-              <span>Тайные знания</span>
+              <span>Secret Knowledge</span>
             </div>
             <div className="flex items-center gap-2 text-purple-200">
               <Sparkles className="w-5 h-5" />
-              <span>Трансформация</span>
+              <span>Transformation</span>
             </div>
           </div>
 
           <button className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-semibold hover:scale-105 transform transition-all duration-300 shadow-2xl hover:shadow-purple-500/50">
-            <span className="relative z-10">Записаться на Тренинг</span>
+            <span className="relative z-10">Sign Up for Training</span>
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
         </div>
@@ -73,25 +73,25 @@ function App() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-            Что Вы Получите
+            What You Will Get
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 icon: <Eye className="w-12 h-12" />,
-                title: 'Мастерство Кристального Шара',
-                description: 'Научитесь читать знаки и видеть будущее через древний артефакт'
+                title: 'Crystal Ball Mastery',
+                description: 'Learn to read signs and see the future through an ancient artifact'
               },
               {
                 icon: <Moon className="w-12 h-12" />,
-                title: 'Развитие Ясновидения',
-                description: 'Откройте свой третий глаз и усильте интуитивные способности'
+                title: 'Clairvoyance Development',
+                description: 'Open your third eye and enhance your intuitive abilities'
               },
               {
                 icon: <Sparkles className="w-12 h-12" />,
-                title: 'Энергетические Практики',
-                description: 'Овладейте техниками работы с энергией и защиты'
+                title: 'Energy Practices',
+                description: 'Master energy work and protection techniques'
               }
             ].map((feature, index) => (
               <div
@@ -117,18 +117,18 @@ function App() {
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-black/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-            Отзывы Учеников
+            Student Testimonials
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                name: 'Анастасия К.',
-                text: 'После тренинга моя жизнь изменилась кардинально. Я научилась видеть знаки и принимать правильные решения.'
+                name: 'Anastasia K.',
+                text: 'After the training, my life changed dramatically. I learned to see signs and make the right decisions.'
               },
               {
-                name: 'Дмитрий В.',
-                text: 'Невероятный опыт! Техники работы с кристальным шаром превзошли все мои ожидания.'
+                name: 'Dmitry V.',
+                text: 'Incredible experience! The crystal ball techniques exceeded all my expectations.'
               }
             ].map((testimonial, index) => (
               <div
@@ -155,14 +155,14 @@ function App() {
             <div className="absolute inset-0 bg-purple-500 blur-3xl opacity-30 rounded-full"></div>
             <div className="relative bg-gradient-to-br from-purple-900/60 to-black/60 backdrop-blur-sm p-12 rounded-3xl border border-purple-500/30">
               <h2 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-                Начните Свой Путь Сегодня
+                Start Your Journey Today
               </h2>
               <p className="text-xl text-purple-200 mb-8">
-                Ограниченное количество мест в группе. Не упустите возможность изменить свою судьбу.
+                Limited spots available in the group. Don't miss the opportunity to change your destiny.
               </p>
               <button className="group relative px-10 py-5 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-xl font-bold hover:scale-105 transform transition-all duration-300 shadow-2xl hover:shadow-purple-500/50">
                 <span className="relative z-10 flex items-center gap-2">
-                  Забронировать Место
+                  Book Your Spot
                   <Sparkles className="w-5 h-5 animate-pulse" />
                 </span>
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-pink-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -174,7 +174,7 @@ function App() {
 
       {/* Footer */}
       <footer className="relative py-8 px-4 text-center text-purple-300 border-t border-purple-500/20">
-        <p>© 2025 Академия Мистических Искусств. Все права защищены.</p>
+        <p>© 2025 Academy of Mystical Arts. All rights reserved.</p>
       </footer>
     </div>
   );

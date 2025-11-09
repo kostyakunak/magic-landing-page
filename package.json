@@ -2,7 +2,7 @@
   "name": "magic-crystal-ball-landing",
   "private": true,
   "version": "1.0.0",
-  "description": "Анимированная лендинг-страница для тренинга по работе с кристальным шаром с современным дизайном и плавными анимациями",
+  "description": "Animated landing page for crystal ball training with modern design and smooth animations",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -42,12 +42,12 @@
   
   <!-- Title -->
   <text x="600" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGradient)">
-    Откройте Врата Будущего
+    Unlock the Gates of the Future
   </text>
   
   <!-- Subtitle -->
   <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#E5E7EB">
-    Древние знания кристального шара теперь доступны вам
+    Ancient crystal ball knowledge is now available to you
   </text>
   
   <!-- Features -->
@@ -57,32 +57,32 @@
       <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
       <path d="M8 15c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7-7-3.13-7-7z" fill="#8B5CF6"/>
       <circle cx="15" cy="15" r="3" fill="#ffffff"/>
-      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Прозрение</text>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Insight</text>
     </g>
     
     <!-- Feature 2 -->
     <g transform="translate(200, 0)">
       <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
       <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="#8B5CF6"/>
-      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Тайные знания</text>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Secret Knowledge</text>
     </g>
     
     <!-- Feature 3 -->
     <g transform="translate(400, 0)">
       <circle cx="15" cy="15" r="12" fill="#8B5CF6" opacity="0.2"/>
       <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.582a.5.5 0 0 1 0 .962L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" fill="#8B5CF6"/>
-      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Трансформация</text>
+      <text x="35" y="20" font-family="Arial, sans-serif" font-size="18" fill="#E5E7EB">Transformation</text>
     </g>
   </g>
   
   <!-- CTA Button -->
   <rect x="450" y="480" width="300" height="60" rx="30" fill="url(#crystalGradient)"/>
   <text x="600" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">
-    Записаться на Тренинг
+    Sign Up for Training
   </text>
   
   <!-- Brand -->
   <text x="1050" y="600" text-anchor="end" font-family="Arial, sans-serif" font-size="16" fill="#9CA3AF">
-    © 2025 Академия Мистических Искусств
+    © 2025 Academy of Mystical Arts
   </text>
 </svg>
